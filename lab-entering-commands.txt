@@ -1,161 +1,164 @@
-
 Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line. 
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt. 
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>. 
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
 
 
 ==========
-1. Open Terminal.  Type:
+1. Open Terminal. Type:
 
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Applications Documents Library Music Pictures Sites VirtualBox VMs
 
-
+Desktop Downloads Movies My Song.band Public Things vms
 
 ==========
 2a. Type: 
 
 $ ls D<TAB>
 
-What happens?  Describe it below.
+What happens? Describe it below.
 ----------
-
+A bleep sounds and nothing happens.
 
 
 ==========
-2b. Press <TAB> one more time.  Copy and paste the output below.
+2b. Press <TAB> one more time. Copy and paste the output below.
 ----------
-
-
+Desktop/ Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+ls: D: No such file or directory
 
 ==========
-3.  Type:
+3. Type:
 
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+-rw-r--r--@ 1 sureniosb staff 37376 Feb 4 2013 Help Desk Resume Redux+.doc
+drwx------ 3 sureniosb staff 102 Mar 20 2012 About Stacks.lpdf
 
 ==========
-4.  Type:
+4. Type:
 
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+Help Desk Resume Redux+.doc
+.
 
 ==========
-5.  Type:
+5. Type:
 
 <UP><ENTER>
 
 What command was repeated?
 ----------
-
+ls
 
 
 ==========
-6.  Type:
+6. Type:
 
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
 ----------
 
-
+ls
 
 ==========
-7.  Type:
+7. Type:
 
 $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
 
-
+ls: /vol: No such file or directory
 
 ==========
-8.  Type:
+8. Type:
 
 $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
-9.  What key do I press to go to the previous command?
+9. What key do I press to go to the previous command?
 ----------
 
-
+<UP>
 
 ==========
-10.  Name two flags that we used in this exercise.
+10. Name two flags that we used in this exercise.
 ----------
 
-
+<-l>
+<-t>
 
 ==========
-11.  What key do I use to attempt to autocomplete a command or a file name?
+11. What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<tab>
 
 ==========
-12.  What was the main command that we used throughout this exercise?
+12. What was the main command that we used throughout this exercise?
 ----------
 
-
+<ls>
 
 ==========
-13.  Name one argument that we passed to the command.
+13. Name one argument that we passed to the command.
 ----------
 
-
+<ls> <-a>
 
 ==========
-14.  Type:
+14. Type:
 
 $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
-15.  Type:
+15. Type:
 
 <UP><ENTER>
 
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
-16.  In the following line....
+16. In the following line....
 
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls <command>
+-a <flag>
+desktop <prompt>
